@@ -157,6 +157,7 @@ const App = () => {
       } else if (activeTab === 'Blocked') {
         return card.status === 'blocked';
       }
+      return true;
     });
 
     setFilteredCards(filteredData);
