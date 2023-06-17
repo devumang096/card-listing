@@ -6,8 +6,8 @@
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: #0e0c5198;
+  border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 20px;
   width: 300px;
@@ -88,4 +88,25 @@
 
 .filters select {
   width: 200px;
+}
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-section input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.filter-section select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
